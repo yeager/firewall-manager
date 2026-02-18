@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "firewall-manager"
-version = "0.1.0"
+version = "0.1.1"
 description = "Firewall Manager — GTK4/Adwaita frontend for UFW"
 readme = "README.md"
 license = "GPL-3.0-or-later"

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: 2026-02-18 09:21+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304964/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/firewall_manager/app.py:109
+msgid "Delete rule"
+msgstr "Ta bort regel"
+
+#: src/firewall_manager/app.py:120
+msgid "Add Firewall Rule"
+msgstr "Lägg till brandväggsregel"
+
+#: src/firewall_manager/app.py:125
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/firewall_manager/app.py:128
+msgid "Add Rule"
+msgstr "Lägg till regel"
+
+#: src/firewall_manager/app.py:140 src/firewall_manager/app.py:141
+msgid "Action"
+msgstr "Åtgärd"
+
+#: src/firewall_manager/app.py:148 src/firewall_manager/app.py:149
+msgid "Direction"
+msgstr "Riktning"
+
+#: src/firewall_manager/app.py:156
+msgid "Port / Service"
+msgstr "Port / Tjänst"
+
+#: src/firewall_manager/app.py:157
+msgid "Port or service (e.g. 22, 80/tcp, ssh)"
+msgstr "Port eller tjänst (t.ex. 22, 80/tcp, ssh)"
+
+#: src/firewall_manager/app.py:162
+msgid "Source"
+msgstr "Källa"
+
+#: src/firewall_manager/app.py:163
+msgid "From IP/subnet (empty = any)"
+msgstr "Från IP/subnät (tom = alla)"
+
+#: src/firewall_manager/app.py:168
+msgid "Comment"
+msgstr "Kommentar"
+
+#: src/firewall_manager/app.py:169
+msgid "Comment (optional)"
+msgstr "Kommentar (valfritt)"
+
+#: src/firewall_manager/app.py:208
+msgid "Toggle theme"
+msgstr "Växla tema"
+
+#: src/firewall_manager/app.py:213
+msgid "About"
+msgstr "Om"
+
+#: src/firewall_manager/app.py:217
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: src/firewall_manager/app.py:229
+msgid "Firewall Status"
+msgstr "Brandväggsstatus"
+
+#: src/firewall_manager/app.py:233
+msgid "Firewall Enabled"
+msgstr "Brandvägg aktiverad"
+
+#: src/firewall_manager/app.py:237
+msgid "Default Incoming"
+msgstr "Inkommande standard"
+
+#: src/firewall_manager/app.py:239
+msgid "Default Outgoing"
+msgstr "Utgående standard"
+
+#: src/firewall_manager/app.py:241
+msgid "Logging"
+msgstr "Loggning"
+
+#: src/firewall_manager/app.py:246
+msgid "Quick Profiles"
+msgstr "Snabbprofiler"
+
+#: src/firewall_manager/app.py:254
+msgid "Reset All"
+msgstr "Återställ alla"
+
+#: src/firewall_manager/app.py:269
+msgid "Rules"
+msgstr "Regler"
+
+#: src/firewall_manager/app.py:272
+msgid "Add rule"
+msgstr "Lägg till regel"
+
+#: src/firewall_manager/app.py:284
+msgid "No rules configured"
+msgstr "Inga regler konfigurerade"
+
+#: src/firewall_manager/app.py:289
+msgid "Ready"
+msgstr "Redo"
+
+#: src/firewall_manager/app.py:309
+msgid "Refreshing..."
+msgstr "Uppdaterar..."
+
+#: src/firewall_manager/app.py:403
+msgid "GTK4 frontend for UFW firewall"
+msgstr "GTK4-gränssnitt för UFW-brandväggen"
