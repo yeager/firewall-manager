@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Firewall Manager
+Comment=GTK4 frontend for UFW firewall
+Exec=firewall-manager
+Icon=io.github.yeager.FirewallManager
+Terminal=false
+Type=Application
+Categories=Network;Security;System;GTK;
+Keywords=firewall;ufw;security;
