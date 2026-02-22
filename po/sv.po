@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304964/sv/)\n"
@@ -21,114 +21,142 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/firewall_manager/app.py:109
+#: src/firewall_manager/app.py:130
 msgid "Delete rule"
 msgstr "Ta bort regel"
 
-#: src/firewall_manager/app.py:120
+#: src/firewall_manager/app.py:141
 msgid "Add Firewall Rule"
 msgstr "Lägg till brandväggsregel"
 
-#: src/firewall_manager/app.py:125
+#: src/firewall_manager/app.py:146
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/firewall_manager/app.py:128
+#: src/firewall_manager/app.py:149
 msgid "Add Rule"
 msgstr "Lägg till regel"
 
-#: src/firewall_manager/app.py:140 src/firewall_manager/app.py:141
+#: src/firewall_manager/app.py:161 src/firewall_manager/app.py:162
 msgid "Action"
 msgstr "Åtgärd"
 
-#: src/firewall_manager/app.py:148 src/firewall_manager/app.py:149
+#: src/firewall_manager/app.py:169 src/firewall_manager/app.py:170
 msgid "Direction"
 msgstr "Riktning"
 
-#: src/firewall_manager/app.py:156
+#: src/firewall_manager/app.py:177
 msgid "Port / Service"
 msgstr "Port / Tjänst"
 
-#: src/firewall_manager/app.py:157
+#: src/firewall_manager/app.py:178
 msgid "Port or service (e.g. 22, 80/tcp, ssh)"
 msgstr "Port eller tjänst (t.ex. 22, 80/tcp, ssh)"
 
-#: src/firewall_manager/app.py:162
+#: src/firewall_manager/app.py:183
 msgid "Source"
 msgstr "Källa"
 
-#: src/firewall_manager/app.py:163
+#: src/firewall_manager/app.py:184
 msgid "From IP/subnet (empty = any)"
 msgstr "Från IP/subnät (tom = alla)"
 
-#: src/firewall_manager/app.py:168
+#: src/firewall_manager/app.py:189
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/firewall_manager/app.py:169
+#: src/firewall_manager/app.py:190
 msgid "Comment (optional)"
 msgstr "Kommentar (valfritt)"
 
-#: src/firewall_manager/app.py:208
+#: src/firewall_manager/app.py:229
 msgid "Toggle theme"
 msgstr "Växla tema"
 
-#: src/firewall_manager/app.py:213
+#: src/firewall_manager/app.py:234
 msgid "About"
 msgstr "Om"
 
-#: src/firewall_manager/app.py:217
+#: src/firewall_manager/app.py:238
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: src/firewall_manager/app.py:229
+#: src/firewall_manager/app.py:250
 msgid "Firewall Status"
 msgstr "Brandväggsstatus"
 
-#: src/firewall_manager/app.py:233
+#: src/firewall_manager/app.py:254
 msgid "Firewall Enabled"
 msgstr "Brandvägg aktiverad"
 
-#: src/firewall_manager/app.py:237
+#: src/firewall_manager/app.py:258
 msgid "Default Incoming"
 msgstr "Inkommande standard"
 
-#: src/firewall_manager/app.py:239
+#: src/firewall_manager/app.py:260
 msgid "Default Outgoing"
 msgstr "Utgående standard"
 
-#: src/firewall_manager/app.py:241
+#: src/firewall_manager/app.py:262
 msgid "Logging"
 msgstr "Loggning"
 
-#: src/firewall_manager/app.py:246
+#: src/firewall_manager/app.py:267
 msgid "Quick Profiles"
 msgstr "Snabbprofiler"
 
-#: src/firewall_manager/app.py:254
+#: src/firewall_manager/app.py:275
 msgid "Reset All"
 msgstr "Återställ alla"
 
-#: src/firewall_manager/app.py:269
+#: src/firewall_manager/app.py:290
 msgid "Rules"
 msgstr "Regler"
 
-#: src/firewall_manager/app.py:272
+#: src/firewall_manager/app.py:293
 msgid "Add rule"
 msgstr "Lägg till regel"
 
-#: src/firewall_manager/app.py:284
+#: src/firewall_manager/app.py:305
 msgid "No rules configured"
 msgstr "Inga regler konfigurerade"
 
-#: src/firewall_manager/app.py:289
+#: src/firewall_manager/app.py:310
 msgid "Ready"
 msgstr "Redo"
 
-#: src/firewall_manager/app.py:309
+#: src/firewall_manager/app.py:330
 msgid "Refreshing..."
 msgstr "Uppdaterar..."
 
-#: src/firewall_manager/app.py:403
+#: src/firewall_manager/app.py:424
 msgid "GTK4 frontend for UFW firewall"
 msgstr "GTK4-gränssnitt för UFW-brandväggen"
+
+#: src/firewall_manager/app.py:462
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/firewall_manager/app.py:468
+msgid "Welcome to Firewall Manager"
+msgstr "Välkommen till Brandväggshanterare"
+
+#: src/firewall_manager/app.py:470
+msgid ""
+"Manage firewall rules with a simple interface.\n"
+"\n"
+"✓ View and edit iptables/nftables rules\n"
+"✓ Add allow/deny rules easily\n"
+"✓ Monitor active connections\n"
+"✓ Import/export rule sets"
+msgstr ""
+"Hantera brandväggsregler med ett enkelt gränssnitt.\n"
+"\n"
+"✓ Visa och redigera iptables/nftables-regler\n"
+"✓ Lägg enkelt till regler för tillåtande/nekande\n"
+"✓ Övervaka aktiva anslutningar\n"
+"✓ Importera/exportera regelsatser"
+
+#: src/firewall_manager/app.py:473
+msgid "Get Started"
+msgstr "Kom igång"
