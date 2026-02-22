@@ -1,35 +1,25 @@
 # Firewall Manager
 
-GTK4/Adwaita frontend for UFW (Uncomplicated Firewall).
+UFW/nftables firewall rule manager with a graphical interface.
 
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
-![Python](https://img.shields.io/badge/python-3.10+-green)
-
-## Features
-
-- View firewall status, default policies, and logging
-- Enable/disable firewall with toggle switch
-- List all active rules with visual indicators
-- Add rules with full dialog (port, protocol, direction, source)
-- Delete rules
-- Quick profiles: SSH, HTTP/S, DNS, Reset
-- Uses `pkexec` for privilege escalation
-- Dark/light theme toggle
+Built with GTK4/Adwaita. Part of the [Danne L10n Suite](https://github.com/yeager/debian-repo).
 
 ## Installation
 
+### Debian/Ubuntu
 ```bash
-pip install -e .
-firewall-manager
+sudo apt install firewall-manager
 ```
 
-## Requirements
-
-- Python 3.10+
-- GTK4, libadwaita
-- PyGObject
-- UFW, polkit (pkexec)
+### Fedora/RPM
+```bash
+sudo dnf install firewall-manager
+```
 
 ## License
 
-GPL-3.0-or-later — Daniel Nylander
+GPL-3.0
+
+## Author
+
+Daniel Nylander — [danielnylander.se](https://danielnylander.se)
