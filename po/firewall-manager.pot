@@ -8,123 +8,145 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/firewall_manager/app.py:109
+#: src/firewall_manager/app.py:130
 msgid "Delete rule"
 msgstr ""
 
-#: src/firewall_manager/app.py:120
+#: src/firewall_manager/app.py:141
 msgid "Add Firewall Rule"
 msgstr ""
 
-#: src/firewall_manager/app.py:125
+#: src/firewall_manager/app.py:146
 msgid "Cancel"
 msgstr ""
 
-#: src/firewall_manager/app.py:128
+#: src/firewall_manager/app.py:149
 msgid "Add Rule"
 msgstr ""
 
-#: src/firewall_manager/app.py:140 src/firewall_manager/app.py:141
+#: src/firewall_manager/app.py:161 src/firewall_manager/app.py:162
 msgid "Action"
 msgstr ""
 
-#: src/firewall_manager/app.py:148 src/firewall_manager/app.py:149
+#: src/firewall_manager/app.py:169 src/firewall_manager/app.py:170
 msgid "Direction"
 msgstr ""
 
-#: src/firewall_manager/app.py:156
+#: src/firewall_manager/app.py:177
 msgid "Port / Service"
 msgstr ""
 
-#: src/firewall_manager/app.py:157
+#: src/firewall_manager/app.py:178
 msgid "Port or service (e.g. 22, 80/tcp, ssh)"
 msgstr ""
 
-#: src/firewall_manager/app.py:162
+#: src/firewall_manager/app.py:183
 msgid "Source"
 msgstr ""
 
-#: src/firewall_manager/app.py:163
+#: src/firewall_manager/app.py:184
 msgid "From IP/subnet (empty = any)"
 msgstr ""
 
-#: src/firewall_manager/app.py:168
+#: src/firewall_manager/app.py:189
 msgid "Comment"
 msgstr ""
 
-#: src/firewall_manager/app.py:169
+#: src/firewall_manager/app.py:190
 msgid "Comment (optional)"
 msgstr ""
 
-#: src/firewall_manager/app.py:208
+#: src/firewall_manager/app.py:229
 msgid "Toggle theme"
 msgstr ""
 
-#: src/firewall_manager/app.py:213
+#: src/firewall_manager/app.py:234
 msgid "About"
 msgstr ""
 
-#: src/firewall_manager/app.py:217
+#: src/firewall_manager/app.py:238
 msgid "Refresh"
 msgstr ""
 
-#: src/firewall_manager/app.py:229
+#: src/firewall_manager/app.py:250
 msgid "Firewall Status"
 msgstr ""
 
-#: src/firewall_manager/app.py:233
+#: src/firewall_manager/app.py:254
 msgid "Firewall Enabled"
 msgstr ""
 
-#: src/firewall_manager/app.py:237
+#: src/firewall_manager/app.py:258
 msgid "Default Incoming"
 msgstr ""
 
-#: src/firewall_manager/app.py:239
+#: src/firewall_manager/app.py:260
 msgid "Default Outgoing"
 msgstr ""
 
-#: src/firewall_manager/app.py:241
+#: src/firewall_manager/app.py:262
 msgid "Logging"
 msgstr ""
 
-#: src/firewall_manager/app.py:246
+#: src/firewall_manager/app.py:267
 msgid "Quick Profiles"
 msgstr ""
 
-#: src/firewall_manager/app.py:254
+#: src/firewall_manager/app.py:275
 msgid "Reset All"
 msgstr ""
 
-#: src/firewall_manager/app.py:269
+#: src/firewall_manager/app.py:290
 msgid "Rules"
 msgstr ""
 
-#: src/firewall_manager/app.py:272
+#: src/firewall_manager/app.py:293
 msgid "Add rule"
 msgstr ""
 
-#: src/firewall_manager/app.py:284
+#: src/firewall_manager/app.py:305
 msgid "No rules configured"
 msgstr ""
 
-#: src/firewall_manager/app.py:289
+#: src/firewall_manager/app.py:310
 msgid "Ready"
 msgstr ""
 
-#: src/firewall_manager/app.py:309
+#: src/firewall_manager/app.py:330
 msgid "Refreshing..."
 msgstr ""
 
-#: src/firewall_manager/app.py:403
+#: src/firewall_manager/app.py:424
 msgid "GTK4 frontend for UFW firewall"
+msgstr ""
+
+#: src/firewall_manager/app.py:462
+msgid "Welcome"
+msgstr ""
+
+#: src/firewall_manager/app.py:468
+msgid "Welcome to Firewall Manager"
+msgstr ""
+
+#: src/firewall_manager/app.py:470
+msgid ""
+"Manage firewall rules with a simple interface.\n"
+"\n"
+"✓ View and edit iptables/nftables rules\n"
+"✓ Add allow/deny rules easily\n"
+"✓ Monitor active connections\n"
+"✓ Import/export rule sets"
+msgstr ""
+
+#: src/firewall_manager/app.py:473
+msgid "Get Started"
 msgstr ""
