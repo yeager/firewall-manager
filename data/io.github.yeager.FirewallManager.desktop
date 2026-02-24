@@ -5,5 +5,6 @@ Exec=firewall-manager
 Icon=io.github.yeager.FirewallManager
 Terminal=false
 Type=Application
+StartupWMClass=io.github.yeager.FirewallManager
 Categories=Network;Security;System;GTK;
 Keywords=firewall;ufw;security;

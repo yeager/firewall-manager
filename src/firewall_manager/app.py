@@ -429,6 +429,7 @@ class FirewallManagerWindow(Adw.ApplicationWindow):
 class FirewallManagerApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID, flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
+        GLib.set_application_name(_("Firewall Manager"))
 
     def do_activate(self):
         self.settings = _load_settings()
