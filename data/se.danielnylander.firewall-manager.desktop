@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Firewall Manager
+Name[sv]=Brandväggshanterare
+Comment=Firewall rule manager
+Comment[sv]=Hanterare för brandväggsregler
+Exec=firewall-manager
+Icon=firewall-manager
+Categories=Network;GTK;Security;
+Terminal=false
+StartupNotify=true
+StartupWMClass=se.danielnylander.firewall-manager
