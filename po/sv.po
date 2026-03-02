@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-03-02 05:44+0000\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304964/sv/)\n"
@@ -133,15 +133,19 @@ msgstr "Uppdaterar..."
 msgid "GTK4 frontend for UFW firewall"
 msgstr "GTK4-gränssnitt för UFW-brandväggen"
 
-#: src/firewall_manager/app.py:462
+#: src/firewall_manager/app.py:432
+msgid "Firewall Manager"
+msgstr ""
+
+#: src/firewall_manager/app.py:463
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/firewall_manager/app.py:468
+#: src/firewall_manager/app.py:469
 msgid "Welcome to Firewall Manager"
 msgstr "Välkommen till Brandväggshanterare"
 
-#: src/firewall_manager/app.py:470
+#: src/firewall_manager/app.py:471
 msgid ""
 "Manage firewall rules with a simple interface.\n"
 "\n"
@@ -157,6 +161,6 @@ msgstr ""
 "✓ Övervaka aktiva anslutningar\n"
 "✓ Importera/exportera regelsatser"
 
-#: src/firewall_manager/app.py:473
+#: src/firewall_manager/app.py:474
 msgid "Get Started"
 msgstr "Kom igång"
